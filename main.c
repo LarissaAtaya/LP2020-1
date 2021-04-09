@@ -327,3 +327,132 @@ main(){
 		valor = valor%1;
 	}
 }	*/
+
+/*--------QUESTAO 10 INCOMPLETA--------
+#include<stdio.h>
+main(){
+	
+int num, milhar, centena, dezena, unidade, resto;
+scanf("%i",&num);
+
+
+    milhar = num/1000;
+    resto = num%1000;
+    switch(milhar){
+    	case 1: printf("mil\n");
+    	break;
+    	
+    	case 2: printf("dois mil\n");
+    	break;
+    	
+    	case 3: printf("tres mil\n");
+    	break;
+    	
+    	case 4: printf("quatro mil\n");
+    	break;
+    	
+    	case 5: printf("cinco mil\n");
+    	break;
+    	
+    	case 6: printf("seis mil\n");
+    	break;
+    	
+    	case 7: printf("sete mil\n");
+    	break;
+    	
+    	case 8: printf("oito mil\n");
+    	break;
+    	
+    	case 9: printf("nove mil\n");
+    	break; 	
+	}
+	
+	centena = resto/100;
+	switch(centena){
+		case 1: printf("cem\n");
+		break;
+		
+		case 2: printf("duzentos\n");
+		break;
+		
+		case 3: printf("trezentos\n");
+		break;
+		
+		case 4: printf("quatrocentos\n");
+		break;
+		
+		case 5: printf("quinhentos\n");
+		break;
+		
+		case 6: printf("seiscentos\n");
+		break;
+		
+		case 7: printf("setecentos\n");
+		break;
+		
+		case 8: printf("oitocentos\n");
+		break;
+		
+		case 9: printf("novecentos\n");
+		break;
+	}
+	
+	dezena = resto/10;
+	switch(dezena){	
+		case 2: printf("vinte e\n");
+		break;
+		
+		case 3: printf("trinta e\n");
+		break;
+		
+		case 4: printf("quarenta e\n");
+		break;
+		
+		case 5: printf("cinquenta e\n");
+		break;
+		
+		case 6: printf("sessenta e\n");
+		break;
+		
+		case 7: printf("setenta e\n");
+		break;
+		
+		case 8: printf("oitenta e\n");
+		break;
+		
+		case 9: printf("noventa e\n");
+		break;
+	}
+	
+	unidade = num%10;
+	switch(unidade){
+		case 1: printf("um\n");
+		break;
+		
+		case 2: printf("dois\n");
+		break;
+		
+		case 3: printf("tres\n");
+		break;
+		
+		case 4: printf("quatro\n");
+		break;
+		
+		case 5: printf("cinco\n");
+		break;
+		
+		case 6: printf("seis\n");
+		break;
+		
+		case 7: printf("sete\n");
+		break;
+		
+		case 8: printf("oito\n");
+		break;
+		
+		case 9: printf("nove\n");
+		break;
+	}
+}*/
+
+/*-----QUESTAO 11 EM BRANCO------
