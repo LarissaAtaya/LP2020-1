@@ -153,3 +153,177 @@ main(){
 	}
 	
 }*/
+/*---------------QUESTAO 6---------------
+#include<stdio.h>
+main(){
+	
+	int num;
+	scanf("%i", &num);
+	
+	switch(num){
+		case 0: printf("zero\n");
+		break;
+		
+		case 1: printf("one\n");
+		break;
+		
+		case 2: printf("two\n");
+		break;
+		
+		case 3: printf("three\n");
+		break;
+		
+		case 4: printf("four\n");
+		break;
+		
+		case 5: printf("five\n");
+		break;
+		
+		case 6: printf("six\n");
+		break;
+		
+		case 7: printf("seven\n");
+		break;
+		
+		case 8: printf("eight\n");
+		break;
+		
+		case 9: printf("nine\n");
+		break;
+		
+		default: printf("nao sei\n");
+	}
+}*/
+
+/*-----------QUESTAO 7--------------
+#include <stdio.h>
+main(){
+	int valor;
+	int notas;
+	scanf("%i", &valor);
+	
+	notas = valor/100;
+	printf("%i notas de R$100\n", notas);
+	valor = valor%100;
+	
+	notas = valor/50;
+	printf("%i notas de R$50\n", notas);
+	valor = valor%50;
+	
+	notas = valor/20;
+	printf("%i notas de R$20\n", notas);
+	valor = valor%20;
+	
+	notas = valor/10;
+	printf("%i notas de R$10\n", notas);
+	valor = valor%10;
+	
+	notas = valor/5;
+	printf("%i notas de R$5\n", notas);
+	valor = valor%5;
+	
+	notas = valor/2;
+	printf("%i notas de R$2\n", notas);
+	valor = valor%2;
+	
+	notas = valor/1;
+	printf("%i notas de R$1\n", notas);
+	valor = valor%1;
+	
+}*/
+
+/*---------QUESTAO 8---------
+#include<stdio.h>
+main(){
+	float x;
+	float y;
+	scanf("%f", &x);
+	scanf("%f", &y);
+	
+	if (x<=58 && y>=0){
+		printf("UHHH\n");
+	}else{
+		if(x>=798 && y>=0){
+			printf("UHHH\n");
+		}else{
+			
+		if(x>=50 && x<=58 && y>=0 && y<=254){
+			printf("UHHH\n");
+		}else{
+			
+		if(x>=790 && x<=798 && y>=0 && y<=254){
+			printf("UHHH\n");
+		}else{
+			
+		if(x>=0 && y>244){
+			printf("UHHH\n");
+		}else{
+			
+		if(x>=58.1 && x<=98 && y>=204 && y<=244){
+			printf("GOLACO\n");
+		}else{
+			
+		if(x>=750 && x<=789.9 && y>=204 && y<=244){
+			printf("GOLACO\n");
+		}else{
+			printf("GOL\n");
+		}
+			}
+		}
+		}
+		}
+		}
+		}
+		}*/
+	
+	
+/*--------QUESTÃO 9----------
+
+	#include <stdio.h>
+main(){
+	int valor;
+	int notas;
+	scanf("%i", &valor);
+	
+    if(valor>=100){
+    	notas = valor/100;
+    	printf("%i notas de R$100\n", notas);
+    	valor = valor%100;
+	}
+	
+	if(valor>=50){
+		notas = valor/50;
+		printf("%i notas de R$50\n", notas);
+		valor = valor%50;
+	}
+	
+	if(valor>=20){
+		notas = valor/20;
+	    printf("%i notas de R$20\n", notas);
+		valor = valor%20;	
+	}
+	
+	if(valor>=10){
+		notas = valor/10;
+		printf("%i notas de R$10\n", notas);
+		valor = valor%10;
+	}
+	
+	if(valor>=5){
+		notas = valor/5;
+		printf("%i notas de R$5\n", notas);
+		valor = valor%5;
+	}
+	
+	if(valor>=2){
+		notas = valor/2;
+		printf("%i notas de R$2\n", notas);
+		valor = valor%2;
+	}
+	
+	if(valor>=1){
+		notas = valor/1;
+		printf("%i notas de R$1\n", notas);	
+		valor = valor%1;
+	}
+}	*/
